@@ -50,8 +50,11 @@ public class Solution {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int arr[] = new int[n];
+        //"p"-positive
         float p = 0;
+        //"m"-negative
         float m = 0;
+        //"e"-equal to 0
         float e = 0;
         
         for(int i=0; i < n; i++){
